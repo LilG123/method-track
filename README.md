@@ -2,7 +2,7 @@
 
 ## 如何使用
 
-- 修改包扫描范围 不修改会扫描不到切面
+- 修改包扫描范围 不修改会扫描不到切面 由于这边切面是在com.xinan包下 所以需要添加com.xinan的扫描范围
 
   ![image](https://github.com/LilG123/method-track/assets/111072293/048dd0c8-a80b-4f6e-9ad0-0ce9c03f7ac2)
 
