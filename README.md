@@ -1,6 +1,14 @@
 # method-track
 
 ## 如何使用
+
+- 修改包扫描范围 不修改会扫描不到切面
+
+  ![image](https://github.com/LilG123/method-track/assets/111072293/048dd0c8-a80b-4f6e-9ad0-0ce9c03f7ac2)
+
+
+  ![image](https://github.com/LilG123/method-track/assets/111072293/d6cd8f97-cb17-425c-be59-57e74297ba09)
+
 - 将本项目clone下来后install到本地仓库
   
   ![image](https://github.com/LilG123/method-track/assets/111072293/0033dca0-ae77-43a8-9246-8269ecca1811)
