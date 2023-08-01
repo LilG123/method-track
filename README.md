@@ -2,21 +2,25 @@
 
 ## 如何使用
 
+
+- 直接从maven中央仓库中引入jar包
+
+  ~~~xml
+  <!-- https://mvnrepository.com/artifact/io.github.LilG123/method-track -->
+  <dependency>
+    <groupId>io.github.LilG123</groupId>
+    <artifactId>method-track</artifactId>
+    <version>0.0.1-RELEASE</version>
+  </dependency>
+
+
 - 修改包扫描范围 不修改会扫描不到切面 由于这边切面是在com.xinan包下 所以需要添加com.xinan的扫描范围
 
   ![image](https://github.com/LilG123/method-track/assets/111072293/048dd0c8-a80b-4f6e-9ad0-0ce9c03f7ac2)
 
 
   ![image](https://github.com/LilG123/method-track/assets/111072293/d6cd8f97-cb17-425c-be59-57e74297ba09)
-
-- 将本项目clone下来后install到本地仓库
   
-  ![image](https://github.com/LilG123/method-track/assets/111072293/0033dca0-ae77-43a8-9246-8269ecca1811)
-
-- 在需要method-track支持的项目中引入jar包
-
-![image](https://github.com/LilG123/method-track/assets/111072293/a7eed6ab-b0cf-4b20-a5ff-f6b2635ad89c)
-
 - 在需要监控的方法上写上@MethodTrack()注解
 
   ![image](https://github.com/LilG123/method-track/assets/111072293/ba8cbf6c-533a-42dc-bce1-7b87e29ef1eb)
